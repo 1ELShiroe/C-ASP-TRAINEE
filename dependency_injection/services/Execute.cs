@@ -101,6 +101,7 @@ namespace Exec
                         break;
 
                     default:
+                        Console.WriteLine("\n[!] Opção invalida!\n ");
                         break;
                 }
                 System.Threading.Thread.Sleep(1500);
